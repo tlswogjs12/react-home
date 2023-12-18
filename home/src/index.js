@@ -2,12 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './js/reportWebVitals';
+import IndexExample from './js/IndexExample';
+import ToggleButton from './js/ToggleButton';
+import ObjectExample from './js/ObjectExample';
+import ImageChange from './js/ImageChange';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+    <IndexExample/>
+    <ToggleButton/>
+    <ObjectExample/>
+    <ImageChange/>
   </React.StrictMode>
 );
 
